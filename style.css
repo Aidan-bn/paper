@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    background-color: black;
+    color: #c17329;
+    padding: 30px;
+}
+
+nav {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.display {
+    min-height: 40vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c17329;
+    border-radius: 0 0 10px 10px;
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+select, input {
+    padding: 4px 5px;
+    background-color: #af7034;
+    /* border: 0; */
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #000;
+    outline: 0;
+    width: 220px;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+.btn-submit > button{
+    background-color: #181614;
+    padding: 5px 38px;
+    color: #af7034;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+    /* box-shadow: #fff(1px 2px 0 0); */
+}
+
+footer {
+    background-color: #000;
+    height: 30vh;
+    margin-top: 6px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
